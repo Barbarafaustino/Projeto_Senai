@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cent {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.cent_r {
+    display: block;
+    margin: 20px 30px;
+    text-align: center;
+    color: white;
+}
+
+.rodape{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    padding:35px;
+    position: relative;
+}
+.cent img{
+    margin: 20px 50px 20px 50px;
+}
+
+.cor {
+    background-color: #9AD6F2;
+
+}
+
+.bodybranco {
+    margin: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.top {
+    padding: 25px;
+    text-align: center right;
+    background-color:#9AD6F2;
+    height: 20px;
+    text-align: center;
+}
+
+.borda {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.esq {
+    float: left;
+    width: 40%;
+    margin: 5px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+.esq_ft{
+    float: left;
+    width: 58%;
+    margin: 5px;
+    text-align: justify;
+}
+.esq_sob{
+    float: left;
+    width: 22%;
+    margin: 20px;
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+.tx_cent{
+    text-align: center;
+}
+.linha{
+    padding: 1px;
+    background-color: #9AD6F2;
+    height: 3px;
+    margin: 15px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.linha-produtos {
+    max-width: 1200px;
+    margin: 50px auto 50px auto;
+    padding: 0 20px;
+}
+
+.título-seção {
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Container flex para produtos - serve para as linhas Camisas e Calções */
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Produtos */
+.produto {
+    flex: 1 1 calc(25% - 20px);
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+    color: #444;
+    flex-grow: 1;
+}
+
+.produto h3 {
+    color:  #00abfa;
+    margin: 10px 0 15px 0;
+    font-weight: 700;
+}
+
+.produto button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.produto button:hover {
+    background-color: #555;
+}
+
+.cad{
+    padding: 20px;
+}
